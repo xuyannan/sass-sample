@@ -1,0 +1,15 @@
+$bg-color: #E4E4E4;
+$element-bg-color: #FFF;
+
+$outter-width: 800px;
+$outter-border-width: 2px;
+
+$element-count: 5;
+$element-margin: 10px;
+
+@mixin rounded( $r: 2px) {
+  border-radius: $r;
+  -moz-border-radius: $r;
+  -o-border-radius: $r;
+  -webkit-border-radius: $r;
+}

@@ -1,0 +1,27 @@
+@import "mixin";
+body {
+  background: $bg-color;
+  padding: 100px;
+}
+
+html, *{
+  padding: 0;
+  margin: 0;
+}
+
+.outter {
+  width: $outter-width - 2 *  $outter-border-width;
+  border: $outter-border-width solid #AAA;
+  .inner {
+      margin-left: 0 - $element-margin;
+      .element {
+        @include rounded(4px);
+        height: 100px;
+        float: left;
+        display: inline-block;
+        background: $element-bg-color;
+        margin-left: $element-margin;
+        width: ($outter-width - $element-margin * ($element-count - 1) - 2 * $outter-border-width ) / $element-count;
+      }
+  }
+}
