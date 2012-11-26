@@ -15,14 +15,4 @@ have fun!
 
 from remote xyn0563
 
-modfiy from xyn0563:b_xyn0563
-
-another one
-
-another two
-
-another three
-
-anohter four
-
-from newbranch
+modfiy from xyn0563
